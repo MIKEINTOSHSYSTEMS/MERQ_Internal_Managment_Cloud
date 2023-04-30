@@ -1,0 +1,2061 @@
+{
+    "SPDXID": "SPDXRef-odoo",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-03-16T23:09:24.334Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for Odoo 16.0.20230315",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-odoo"
+    ],
+    "documentNamespace": "odoo-16.0.20230315",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-odoo",
+            "name": "Odoo",
+            "versionInfo": "16.0.20230315",
+            "downloadLocation": "http://nightly.odoo.com/16.0/nightly/src/odoo_16.0.20230315.tar.gz",
+            "licenseConcluded": "LGPL-3.0-only",
+            "licenseDeclared": "LGPL-3.0-only",
+            "filesAnalyzed": false
+        },
+        {
+            "SPDXID": "SPDXRef-Package-12a6fffb4362c30",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/pyasn1@0.4.8",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-2c583336798d7844"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "pyasn1",
+            "versionInfo": "0.4.8",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-159fb4d3502e450b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/certifi@2022.12.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-bb51df1ba4df047a"
+            ],
+            "licenseConcluded": "MPL-2.0",
+            "licenseDeclared": "MPL-2.0",
+            "name": "certifi",
+            "versionInfo": "2022.12.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-19a6fe1d615a723f",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/pillow@9.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-e3e9577828b08747"
+            ],
+            "licenseConcluded": "HPND",
+            "licenseDeclared": "HPND",
+            "name": "Pillow",
+            "versionInfo": "9.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-25455d46f23958f2",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/psycopg2@2.8.6",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-90abff3e128e761"
+            ],
+            "licenseConcluded": "LGPL-3.0-only WITH exceptions",
+            "licenseDeclared": "LGPL-3.0-only WITH exceptions",
+            "name": "psycopg2",
+            "versionInfo": "2.8.6",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-310927a4f4114f72",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/isodate@0.6.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-7035dbcc1dacf326"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "isodate",
+            "versionInfo": "0.6.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3c7e782be801b2e9",
+            "attributionTexts": [
+                "PkgID: is-what@3.14.1"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/is-what@3.14.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-54cae837d5c29d40"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "is-what",
+            "versionInfo": "3.14.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-45dacdd3ca8bb047",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/psutil@5.6.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-d5ad95a22467735b"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "psutil",
+            "versionInfo": "5.6.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-46773e90b0dce593",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/appdirs@1.4.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-51ea7f707bcaca2a"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "appdirs",
+            "versionInfo": "1.4.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-46dcd7e700bd9454",
+            "attributionTexts": [
+                "PkgID: clean-css@3.4.28"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/clean-css@3.4.28",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-4153d606a0e9536e"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "clean-css",
+            "versionInfo": "3.4.28",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-485c49ee6d9d7dc7",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/num2words@0.5.6",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-c69c19ddb157a6a4"
+            ],
+            "licenseConcluded": "LGPL-3.0-only",
+            "licenseDeclared": "LGPL-3.0-only",
+            "name": "num2words",
+            "versionInfo": "0.5.6",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4a8e551abc4bc13b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/urllib3@1.26.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-a8241b9c32206789"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "urllib3",
+            "versionInfo": "1.26.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4ab3fc22d72c2d94",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/setuptools@67.4.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-9a24560ac2dac2f3"
+            ],
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "setuptools",
+            "versionInfo": "67.4.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4dfd15c8cb028c43",
+            "attributionTexts": [
+                "PkgID: safer-buffer@2.1.2"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/safer-buffer@2.1.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-fcb62d2965672b87"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "safer-buffer",
+            "versionInfo": "2.1.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-50abe06bff674319",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/python-dateutil@2.7.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-83f57f8cad5b5db"
+            ],
+            "licenseConcluded": "Dual-License",
+            "licenseDeclared": "Dual-License",
+            "name": "python-dateutil",
+            "versionInfo": "2.7.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5334a07114a4d2ec",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/xlsxwriter@1.1.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-9d46e53cff6b0fdc"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "XlsxWriter",
+            "versionInfo": "1.1.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-56aa1a7e054a4ede",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/docutils@0.16",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-92754f7e8ba9f3b4"
+            ],
+            "name": "docutils",
+            "versionInfo": "0.16",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-579721a7687732d5",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/xlrd@1.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-cdbf9426b6847cb5"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "xlrd",
+            "versionInfo": "1.2.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-616ebf31a15cc04e",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/markupsafe@1.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-e1b81e8bbcc9744b"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "MarkupSafe",
+            "versionInfo": "1.1.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-62f55eb7b536a3a7",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/zope.interface@5.5.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-272f8e373c6c9ce5"
+            ],
+            "licenseConcluded": "ZPL-2.1",
+            "licenseDeclared": "ZPL-2.1",
+            "name": "zope.interface",
+            "versionInfo": "5.5.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-63ca9a1c1b47a626",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/pyserial@3.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-cb97a1f6100cc472"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "pyserial",
+            "versionInfo": "3.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-68f6051a26f5a14e",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/libsass@0.18.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-5052e534615ebbd2"
+            ],
+            "licenseConcluded": "MIT-License",
+            "licenseDeclared": "MIT-License",
+            "name": "libsass",
+            "versionInfo": "0.18.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-69b31f6deb13a1cf",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/cffi@1.15.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-f707ba337057c970"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "cffi",
+            "versionInfo": "1.15.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6b45ebe8eb7bf81",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/attrs@22.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-f390f6a95947af66"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "attrs",
+            "versionInfo": "22.2.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6fbbf14dd7754703",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/werkzeug@2.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-45aa573935bac170"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "Werkzeug",
+            "versionInfo": "2.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6ffb84276d763527",
+            "attributionTexts": [
+                "PkgID: commander@2.8.1"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/commander@2.8.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-41ba52fc8202c06f"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "commander",
+            "versionInfo": "2.8.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-703536aa32347216",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/ofxparse@0.21",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-f29ee6a544bcac01"
+            ],
+            "licenseConcluded": "MIT-License",
+            "licenseDeclared": "MIT-License",
+            "name": "ofxparse",
+            "versionInfo": "0.21",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-72ad33baea4e4fde",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/xlwt@1.3.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-d9143d58e8ac1f6b"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "xlwt",
+            "versionInfo": "1.3.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-792fa640f27123ba",
+            "attributionTexts": [
+                "PkgID: needle@3.2.0"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/needle@3.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-a21c267af80310e6"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "needle",
+            "versionInfo": "3.2.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-7a4bd6712c046e28",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/qrcode@6.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-f9d3f37ed5898db"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "qrcode",
+            "versionInfo": "6.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-7c0bcf9807185ac5",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/jinja2@2.11.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-10274d922173307"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "Jinja2",
+            "versionInfo": "2.11.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-81ac0054efc769fd",
+            "attributionTexts": [
+                "PkgID: source-map@0.4.4"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/source-map@0.4.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-55bf73a99c3c6424"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "source-map",
+            "versionInfo": "0.4.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-81b8f59686727c1",
+            "attributionTexts": [
+                "PkgID: make-dir@2.1.0"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/make-dir@2.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-8022a2f872f82fe1"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "make-dir",
+            "versionInfo": "2.1.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8bf84ea9bebba16b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/lxml@4.6.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-80cb777744feb6be"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "lxml",
+            "versionInfo": "4.6.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8d7f5dff454e06c9",
+            "attributionTexts": [
+                "PkgID: graceful-readlink@1.0.1"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/graceful-readlink@1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-95eb119cc9c1fadb"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "graceful-readlink",
+            "versionInfo": "1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8dee01f51b7f26f3",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/pydot@1.4.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-a85ca0f8782e484"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "pydot",
+            "versionInfo": "1.4.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8e9afac3e1130b5",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/decorator@4.4.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-9b8ec82c2da1f3dd"
+            ],
+            "licenseConcluded": "new-BSD-License",
+            "licenseDeclared": "new-BSD-License",
+            "name": "decorator",
+            "versionInfo": "4.4.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8ff4bf6db1dec415",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/chardet@3.0.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-d888620e8ba5efde"
+            ],
+            "licenseConcluded": "LGPL-3.0-only",
+            "licenseDeclared": "LGPL-3.0-only",
+            "name": "chardet",
+            "versionInfo": "3.0.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-923e690ea4d2181d",
+            "attributionTexts": [
+                "PkgID: amdefine@1.0.1"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/amdefine@1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-df4b3aeedfe291c4"
+            ],
+            "licenseConcluded": "BSD-3-Clause OR MIT",
+            "licenseDeclared": "BSD-3-Clause OR MIT",
+            "name": "amdefine",
+            "versionInfo": "1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-94d13efddefe54f4",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/six@1.16.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-d7e089ac4b1cf582"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "six",
+            "versionInfo": "1.16.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9a1f2912bb42759",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/freezegun@0.3.15",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-ac812ec273a3dc74"
+            ],
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "freezegun",
+            "versionInfo": "0.3.15",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9d203a5a347a0ef0",
+            "attributionTexts": [
+                "PkgID: semver@5.7.1"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/semver@5.7.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-6e2280643ca58ad"
+            ],
+            "licenseConcluded": "ISC",
+            "licenseDeclared": "ISC",
+            "name": "semver",
+            "versionInfo": "5.7.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9dae72f59dbfce3",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/beautifulsoup4@4.11.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-43a025f738cc06f4"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "beautifulsoup4",
+            "versionInfo": "4.11.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a1f7f0eea68782bd",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/polib@1.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-a84b4436b2ceba7e"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "polib",
+            "versionInfo": "1.1.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a26ae9c00fa57293",
+            "attributionTexts": [
+                "PkgID: errno@0.1.8"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/errno@0.1.8",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-bbcd13f2694e362d"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "errno",
+            "versionInfo": "0.1.8",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a96acc7ce4ef060f",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/zope.event@4.6",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-5e598bfdd037944c"
+            ],
+            "licenseConcluded": "ZPL-2.1",
+            "licenseDeclared": "ZPL-2.1",
+            "name": "zope.event",
+            "versionInfo": "4.6",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-aa0c78925b424b8b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/vobject@0.9.6.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-7be590a630c54af3"
+            ],
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "vobject",
+            "versionInfo": "0.9.6.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-aa8e4d998d04544e",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/zeep@3.4.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-3f9d0f7ebf54c33f"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "zeep",
+            "versionInfo": "3.4.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ad1610f38fec0623",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/reportlab@3.5.59",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-15b175943b09995f"
+            ],
+            "name": "reportlab",
+            "versionInfo": "3.5.59",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ad3128e7b927921f",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/wheel@0.38.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-9eb11ed85a4261e2"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "wheel",
+            "versionInfo": "0.38.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b1d0f9eaef69c4bf",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/passlib@1.7.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-e65970c3675cbfc5"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "passlib",
+            "versionInfo": "1.7.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b38a7fdc9625a544",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/requests-toolbelt@0.10.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-740aac2643321602"
+            ],
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "requests-toolbelt",
+            "versionInfo": "0.10.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b425cb2f88d3d152",
+            "attributionTexts": [
+                "PkgID: prr@1.0.1"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/prr@1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-adf35aaed561312d"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "prr",
+            "versionInfo": "1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b63d2a7745d3d84",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/pyusb@1.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-6ab4718656c7a798"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "pyusb",
+            "versionInfo": "1.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b7122d3a0b5ac4e4",
+            "attributionTexts": [
+                "PkgID: iconv-lite@0.6.3"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/iconv-lite@0.6.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-5f5a399a69e05869"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "iconv-lite",
+            "versionInfo": "0.6.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b7ce48a22c0a247b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/pip@23.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-395500ca7808ce0b"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "pip",
+            "versionInfo": "23.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b7e9e5447cc88d5",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/pycparser@2.21",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-1f28f0a24ee29b18"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "pycparser",
+            "versionInfo": "2.21",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b8211d13d7f9d844",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/babel@2.9.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-e711d1c516dddb74"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "Babel",
+            "versionInfo": "2.9.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-bdc197533efd4331",
+            "attributionTexts": [
+                "PkgID: debug@3.2.7"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/debug@3.2.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-8c1ae4ec3303f82e"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "debug",
+            "versionInfo": "3.2.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-beafae7dd3dbbc4e",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/ebaysdk@2.1.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-2adb4d3d46a97a8b"
+            ],
+            "name": "ebaysdk",
+            "versionInfo": "2.1.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c0cc01dc773169f5",
+            "attributionTexts": [
+                "PkgID: tslib@2.5.0"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/tslib@2.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-7e53255f689e022d"
+            ],
+            "licenseConcluded": "0BSD",
+            "licenseDeclared": "0BSD",
+            "name": "tslib",
+            "versionInfo": "2.5.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c30780f490285304",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/soupsieve@2.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-6c752efb047d49dd"
+            ],
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "soupsieve",
+            "versionInfo": "2.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c5a8fa8a27f5af0d",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/pypdf2@1.26.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-1651cbf4252ac658"
+            ],
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "PyPDF2",
+            "versionInfo": "1.26.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c705392147fbc15b",
+            "attributionTexts": [
+                "PkgID: graceful-fs@4.2.11"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/graceful-fs@4.2.11",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-2333734583835b60"
+            ],
+            "licenseConcluded": "ISC",
+            "licenseDeclared": "ISC",
+            "name": "graceful-fs",
+            "versionInfo": "4.2.11",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-cea6f59ea0c3b932",
+            "attributionTexts": [
+                "PkgID: less@4.1.3"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/less@4.1.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-27821e09d74039a0"
+            ],
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "less",
+            "versionInfo": "4.1.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d0a16210eeb7e798",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/idna@2.8",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-1584fd5fc9f95282"
+            ],
+            "licenseConcluded": "BSD-like",
+            "licenseDeclared": "BSD-like",
+            "name": "idna",
+            "versionInfo": "2.8",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d49fa58cbd53f4ea",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/cached-property@1.5.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-5334b1bb67d7030e"
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "cached-property",
+            "versionInfo": "1.5.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d4ed1acf241b76f4",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/gevent@21.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-1786eb252ada2aa0"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "gevent",
+            "versionInfo": "21.8.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d52226ddd0c0a043",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/requests@2.25.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-c1b07c1e9c84f366"
+            ],
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "requests",
+            "versionInfo": "2.25.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d80bc6423de10562",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/python-ldap@3.4.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-767e8486fae28f09"
+            ],
+            "licenseConcluded": "Python-style",
+            "licenseDeclared": "Python-style",
+            "name": "python-ldap",
+            "versionInfo": "3.4.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d8507d18070357b4",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/pyopenssl@19.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-a6b1ad8f0983cac3"
+            ],
+            "licenseConcluded": "Apache-License AND Version-2.0",
+            "licenseDeclared": "Apache-License AND Version-2.0",
+            "name": "pyOpenSSL",
+            "versionInfo": "19.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d97ab4b94bea096f",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/defusedxml@0.7.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-cf0ee9c9fc8ed917"
+            ],
+            "licenseConcluded": "PSFL",
+            "licenseDeclared": "PSFL",
+            "name": "defusedxml",
+            "versionInfo": "0.7.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-daf08ad6d22cd2db",
+            "attributionTexts": [
+                "PkgID: image-size@0.5.5"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/image-size@0.5.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-8d60701627e25f94"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "image-size",
+            "versionInfo": "0.5.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e18d15afc3ec52cb",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/greenlet@1.1.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-62349a997fe80cb4"
+            ],
+            "licenseConcluded": "MIT-License",
+            "licenseDeclared": "MIT-License",
+            "name": "greenlet",
+            "versionInfo": "1.1.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e193669d674b5586",
+            "attributionTexts": [
+                "PkgID: mime@1.6.0"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/mime@1.6.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-7638fcaa7c33c605"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "mime",
+            "versionInfo": "1.6.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e69b23bb21dc19d9",
+            "attributionTexts": [
+                "PkgID: less-plugin-clean-css@1.5.1"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/less-plugin-clean-css@1.5.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-1410207a9b486a30"
+            ],
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "less-plugin-clean-css",
+            "versionInfo": "1.5.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ec31730a0b90cb4d",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/python-stdnum@1.13",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-862f131ae56710af"
+            ],
+            "licenseConcluded": "LGPL-3.0-only",
+            "licenseDeclared": "LGPL-3.0-only",
+            "name": "python-stdnum",
+            "versionInfo": "1.13",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ecba625b03b2a618",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/pyasn1-modules@0.2.8",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-ffd0a20b5f461540"
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "BSD-2-Clause",
+            "name": "pyasn1-modules",
+            "versionInfo": "0.2.8",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-eda174c4f217c941",
+            "attributionTexts": [
+                "PkgID: copy-anything@2.0.6"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/copy-anything@2.0.6",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-54f581f0d4d9fd63"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "copy-anything",
+            "versionInfo": "2.0.6",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f08920d79a144ce2",
+            "attributionTexts": [
+                "PkgID: parse-node-version@1.0.1"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/parse-node-version@1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-5964d2959cdcdb4e"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "parse-node-version",
+            "versionInfo": "1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f2484af6cfe86a6e",
+            "attributionTexts": [
+                "PkgID: ms@2.1.3"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/ms@2.1.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-382b4056a77d41bd"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "ms",
+            "versionInfo": "2.1.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f44ad1a207ac1c05",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/pyparsing@3.0.9",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-a49c0be7816a0a85"
+            ],
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "pyparsing",
+            "versionInfo": "3.0.9",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f487ff9a91e10ae",
+            "attributionTexts": [
+                "PkgID: pify@4.0.1"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/pify@4.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-558e95946f12cdb7"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "pify",
+            "versionInfo": "4.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f4ca2a30f75f2bb",
+            "attributionTexts": [
+                "PkgID: sax@1.2.4"
+            ],
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/sax@1.2.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-ee06b626110e017d"
+            ],
+            "licenseConcluded": "ISC",
+            "licenseDeclared": "ISC",
+            "name": "sax",
+            "versionInfo": "1.2.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f5f822fcc2461f6e",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/pytz@2019.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-82a53ad28652dc5c"
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "pytz",
+            "versionInfo": "2019.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f671970da25ca84c",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/cryptography@3.4.8",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "hasFiles": [
+                "SPDXRef-File-537488044c53163d"
+            ],
+            "licenseConcluded": "(BSD-3-Clause OR Apache-License) AND Version-2.0",
+            "licenseDeclared": "(BSD-3-Clause OR Apache-License) AND Version-2.0",
+            "name": "cryptography",
+            "versionInfo": "3.4.8",
+            "downloadLocation": "NOASSERTION"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-File-10274d922173307",
+            "fileName": "venv/lib/python3.10/site-packages/Jinja2-2.11.3.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-1410207a9b486a30",
+            "fileName": "node_modules/less-plugin-clean-css/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-1584fd5fc9f95282",
+            "fileName": "venv/lib/python3.10/site-packages/idna-2.8.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-15b175943b09995f",
+            "fileName": "venv/lib/python3.10/site-packages/reportlab-3.5.59.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-1651cbf4252ac658",
+            "fileName": "venv/lib/python3.10/site-packages/PyPDF2-1.26.0.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-1786eb252ada2aa0",
+            "fileName": "venv/lib/python3.10/site-packages/gevent-21.8.0.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-1f28f0a24ee29b18",
+            "fileName": "venv/lib/python3.10/site-packages/pycparser-2.21.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-2333734583835b60",
+            "fileName": "node_modules/graceful-fs/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-272f8e373c6c9ce5",
+            "fileName": "venv/lib/python3.10/site-packages/zope.interface-5.5.2.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-27821e09d74039a0",
+            "fileName": "node_modules/less/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-2adb4d3d46a97a8b",
+            "fileName": "venv/lib/python3.10/site-packages/ebaysdk-2.1.5.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-2c583336798d7844",
+            "fileName": "venv/lib/python3.10/site-packages/pyasn1-0.4.8.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-382b4056a77d41bd",
+            "fileName": "node_modules/ms/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-395500ca7808ce0b",
+            "fileName": "venv/lib/python3.10/site-packages/pip-23.0.1.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-3f9d0f7ebf54c33f",
+            "fileName": "venv/lib/python3.10/site-packages/zeep-3.4.0.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-4153d606a0e9536e",
+            "fileName": "node_modules/clean-css/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-41ba52fc8202c06f",
+            "fileName": "node_modules/commander/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-43a025f738cc06f4",
+            "fileName": "venv/lib/python3.10/site-packages/beautifulsoup4-4.11.2.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-45aa573935bac170",
+            "fileName": "venv/lib/python3.10/site-packages/Werkzeug-2.0.2.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-5052e534615ebbd2",
+            "fileName": "venv/lib/python3.10/site-packages/libsass-0.18.0.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-51ea7f707bcaca2a",
+            "fileName": "venv/lib/python3.10/site-packages/appdirs-1.4.4.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-5334b1bb67d7030e",
+            "fileName": "venv/lib/python3.10/site-packages/cached_property-1.5.2.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-537488044c53163d",
+            "fileName": "venv/lib/python3.10/site-packages/cryptography-3.4.8.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-54cae837d5c29d40",
+            "fileName": "node_modules/is-what/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-54f581f0d4d9fd63",
+            "fileName": "node_modules/copy-anything/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-558e95946f12cdb7",
+            "fileName": "node_modules/pify/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-55bf73a99c3c6424",
+            "fileName": "node_modules/clean-css/node_modules/source-map/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-5964d2959cdcdb4e",
+            "fileName": "node_modules/parse-node-version/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-5e598bfdd037944c",
+            "fileName": "venv/lib/python3.10/site-packages/zope.event-4.6.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-5f5a399a69e05869",
+            "fileName": "node_modules/iconv-lite/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-62349a997fe80cb4",
+            "fileName": "venv/lib/python3.10/site-packages/greenlet-1.1.2.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-6ab4718656c7a798",
+            "fileName": "venv/lib/python3.10/site-packages/pyusb-1.0.2.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-6c752efb047d49dd",
+            "fileName": "venv/lib/python3.10/site-packages/soupsieve-2.4.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-6e2280643ca58ad",
+            "fileName": "node_modules/semver/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-7035dbcc1dacf326",
+            "fileName": "venv/lib/python3.10/site-packages/isodate-0.6.1.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-740aac2643321602",
+            "fileName": "venv/lib/python3.10/site-packages/requests_toolbelt-0.10.1.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-7638fcaa7c33c605",
+            "fileName": "node_modules/mime/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-767e8486fae28f09",
+            "fileName": "venv/lib/python3.10/site-packages/python_ldap-3.4.0.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-7be590a630c54af3",
+            "fileName": "venv/lib/python3.10/site-packages/vobject-0.9.6.1.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-7e53255f689e022d",
+            "fileName": "node_modules/tslib/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-8022a2f872f82fe1",
+            "fileName": "node_modules/make-dir/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-80cb777744feb6be",
+            "fileName": "venv/lib/python3.10/site-packages/lxml-4.6.5.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-82a53ad28652dc5c",
+            "fileName": "venv/lib/python3.10/site-packages/pytz-2019.3.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-83f57f8cad5b5db",
+            "fileName": "venv/lib/python3.10/site-packages/python_dateutil-2.7.3.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-862f131ae56710af",
+            "fileName": "venv/lib/python3.10/site-packages/python_stdnum-1.13.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-8c1ae4ec3303f82e",
+            "fileName": "node_modules/debug/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-8d60701627e25f94",
+            "fileName": "node_modules/image-size/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-90abff3e128e761",
+            "fileName": "venv/lib/python3.10/site-packages/psycopg2-2.8.6.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-92754f7e8ba9f3b4",
+            "fileName": "venv/lib/python3.10/site-packages/docutils-0.16.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-95eb119cc9c1fadb",
+            "fileName": "node_modules/graceful-readlink/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-9a24560ac2dac2f3",
+            "fileName": "venv/lib/python3.10/site-packages/setuptools-67.4.0.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-9b8ec82c2da1f3dd",
+            "fileName": "venv/lib/python3.10/site-packages/decorator-4.4.2.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-9d46e53cff6b0fdc",
+            "fileName": "venv/lib/python3.10/site-packages/XlsxWriter-1.1.2.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-9eb11ed85a4261e2",
+            "fileName": "venv/lib/python3.10/site-packages/wheel-0.38.4.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-a21c267af80310e6",
+            "fileName": "node_modules/needle/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-a49c0be7816a0a85",
+            "fileName": "venv/lib/python3.10/site-packages/pyparsing-3.0.9.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-a6b1ad8f0983cac3",
+            "fileName": "venv/lib/python3.10/site-packages/pyOpenSSL-19.0.0.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-a8241b9c32206789",
+            "fileName": "venv/lib/python3.10/site-packages/urllib3-1.26.5.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-a84b4436b2ceba7e",
+            "fileName": "venv/lib/python3.10/site-packages/polib-1.1.0.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-a85ca0f8782e484",
+            "fileName": "venv/lib/python3.10/site-packages/pydot-1.4.1.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-ac812ec273a3dc74",
+            "fileName": "venv/lib/python3.10/site-packages/freezegun-0.3.15.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-adf35aaed561312d",
+            "fileName": "node_modules/prr/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-bb51df1ba4df047a",
+            "fileName": "venv/lib/python3.10/site-packages/certifi-2022.12.7.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-bbcd13f2694e362d",
+            "fileName": "node_modules/errno/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-c1b07c1e9c84f366",
+            "fileName": "venv/lib/python3.10/site-packages/requests-2.25.1.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-c69c19ddb157a6a4",
+            "fileName": "venv/lib/python3.10/site-packages/num2words-0.5.6.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-cb97a1f6100cc472",
+            "fileName": "venv/lib/python3.10/site-packages/pyserial-3.4.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-cdbf9426b6847cb5",
+            "fileName": "venv/lib/python3.10/site-packages/xlrd-1.2.0.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-ce7993c72ce7937f",
+            "fileName": "node_modules/source-map/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-cf0ee9c9fc8ed917",
+            "fileName": "venv/lib/python3.10/site-packages/defusedxml-0.7.1.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-d5ad95a22467735b",
+            "fileName": "venv/lib/python3.10/site-packages/psutil-5.6.7.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-d7e089ac4b1cf582",
+            "fileName": "venv/lib/python3.10/site-packages/six-1.16.0.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-d888620e8ba5efde",
+            "fileName": "venv/lib/python3.10/site-packages/chardet-3.0.4.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-d9143d58e8ac1f6b",
+            "fileName": "venv/lib/python3.10/site-packages/xlwt-1.3.0.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-df4b3aeedfe291c4",
+            "fileName": "node_modules/amdefine/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-e1b81e8bbcc9744b",
+            "fileName": "venv/lib/python3.10/site-packages/MarkupSafe-1.1.0.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-e3e9577828b08747",
+            "fileName": "venv/lib/python3.10/site-packages/Pillow-9.0.1.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-e65970c3675cbfc5",
+            "fileName": "venv/lib/python3.10/site-packages/passlib-1.7.3.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-e711d1c516dddb74",
+            "fileName": "venv/lib/python3.10/site-packages/Babel-2.9.1.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-ee06b626110e017d",
+            "fileName": "node_modules/sax/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-f217aabee54ab5de",
+            "fileName": "lib/odoo-16.0.post20230315-py3.10.egg/EGG-INFO/PKG-INFO"
+        },
+        {
+            "SPDXID": "SPDXRef-File-f29ee6a544bcac01",
+            "fileName": "venv/lib/python3.10/site-packages/ofxparse-0.21.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-f390f6a95947af66",
+            "fileName": "venv/lib/python3.10/site-packages/attrs-22.2.0.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-f707ba337057c970",
+            "fileName": "venv/lib/python3.10/site-packages/cffi-1.15.1.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-f9d3f37ed5898db",
+            "fileName": "venv/lib/python3.10/site-packages/qrcode-6.1.dist-info/METADATA"
+        },
+        {
+            "SPDXID": "SPDXRef-File-fcb62d2965672b87",
+            "fileName": "node_modules/safer-buffer/package.json"
+        },
+        {
+            "SPDXID": "SPDXRef-File-ffd0a20b5f461540",
+            "fileName": "venv/lib/python3.10/site-packages/pyasn1_modules-0.2.8.dist-info/METADATA"
+        }
+    ]
+}
