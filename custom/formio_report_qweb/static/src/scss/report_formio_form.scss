@@ -1,0 +1,96 @@
+.formio_header {
+    padding: 4px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+/* Input components */
+
+.formio_textfield_component p,
+.formio_textarea_component p,
+.formio_number_component p,
+.formio_password_component p,
+.formio_select_component div.value_container,
+.formio_phoneNumber_component p,
+.formio_email_component p,
+.formio_date_component p,
+.formio_datetime_component p,
+.formio_component_not_implemented div.raw_value {
+    border: 1px solid #d8d8d8;
+    padding: 4px;
+    padding-left: 8px;
+    min-height: 32px;
+}
+
+.formio_textarea_component p {
+    min-height: 64px;
+}
+
+.formio_password_component i {
+    color: #808080;
+}
+
+.formio_select_component div span.badge {
+    border: 1px solid #d8d8d8;
+    margin-right: 4px;
+    font-size: 0.9em;
+}
+
+/* START formio_day_component */
+.formio_day_component > div.row {
+    margin-left: 8px;
+}
+
+.formio_day_component .date_input {
+    border: 1px solid #d8d8d8;
+    margin-right: 4px;
+    padding: 4px;
+}
+/* END formio_day_component */
+
+.formio_component_signature_empty {
+    border: 1px solid #d8d8d8;
+    min-height: 62px;
+}
+
+.formio_components .label {
+    color: inherit;
+    font-size: 100%;
+}
+
+/* Layout components */
+
+.formio_components > table td {
+    border: none;
+}
+
+.formio_panel_component {
+    border: 1px solid #d8d8d8;
+}
+
+.formio_panel_component > p {
+    padding: 8px;
+    background-color: #f0f0f0;
+}
+
+.formio_tab_components  {
+    border: 1px solid #d8d8d8;
+}
+
+.formio_tab_component strong  {
+    padding: 2px 4px 6px 4px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #d8d8d8;
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+
+.formio_table_component table  {
+    width: 100%;
+}
+
+/* Component not implemented */
+
+.formio_component_not_implemented small {
+    color: #808080;
+    font-style: italic;
+}

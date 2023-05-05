@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright Nova Code (http://www.novacode.nl)
+See LICENSE file for full licensing details. -->
+
+<odoo>
+    <data>
+        <record id="view_formio_builder_form_inherit" model="ir.ui.view">
+            <field name="name">formio.builder.form report</field>
+            <field name="model">formio.builder</field>
+            <field name="inherit_id" ref="formio.view_formio_builder_form"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="//page[@name='form_permissions']" position="after">
+                        <page name="qweb_reports" string="Reports">
+                            <group name="print_reports_wizard" string="Print Reports Wizard">
+                                <div class="mb-4 text-muted" colspan="2">
+                                    <i class="fa fa-info-circle" title="info"/> Configure the <strong>Print Reports button</strong> in <strong>Forms</strong>.<br/>
+                                    Specify the order and whether to print the report by default. Only PDF reports shall be printed.
+                                </div>
+                                <field name="report_print_wizard_ids" context="{'default_builder_id': id}" attrs="{'readonly': [('is_locked', '=', True)]}" nolabel="1" colspan="2">
+                                    <tree editable="bottom">
+                                        <field name="builder_id" invisible="1"/>
+                                        <field name="builder_report_ids" invisible="1"/>
+                                        <field name="sequence" widget="handle"/>
+                                        <field name="ir_actions_report_id" string="Report"
+                                               domain="[('id', 'not in', builder_report_ids), ('model', '=', 'formio.form'), ('report_type', '=', 'qweb-pdf')]"/>
+                                        <field name="report_type" string="Type"/>
+                                        <field name="default_enable"/>
+                                    </tree>
+                                </field>
+                            </group>
+                            <group name="reports_config" string="Reports Configuration">
+                                <div class="text-muted" colspan="2">
+                                    <i class="fa fa-info-circle" title="info"/> General configuration for Reports
+                                </div>
+                                <field name="report_ids" context="{'default_builder_id': id}" attrs="{'readonly': [('is_locked', '=', True)]}" nolabel="1" colspan="2">
+                                    <tree editable="bottom">
+                                        <field name="builder_id" invisible="1"/>
+                                        <field name="ir_actions_report_id" string="Report"/>
+                                        <field name="show_components_not_implemented"/>
+                                    </tree>
+                                </field>
+                            </group>
+                        </page>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+    </data>
+</odoo>

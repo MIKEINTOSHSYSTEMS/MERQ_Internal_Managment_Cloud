@@ -1,0 +1,69 @@
+# Copyright Nova Code (http://www.novacode.nl)
+# See LICENSE file for full licensing details.
+
+import logging
+
+from functools import reduce
+from formiodata.builder import Builder
+from formiodata.form import Form
+
+from odoo import models
+from odoo.exceptions import UserError
+from odoo.tools import safe_eval
+
+from odoo.addons.formio.models.formio_form import STATE_PENDING, STATE_DRAFT
+
+_logger = logging.getLogger(__name__)
+
+UNKNOWN_ODOO_FIELD = 'UNKNOWN Odoo field'
+
+
+class FormioForm(models.Model):
+    _inherit = 'formio.form'
+
+    def __getattr__(self, name):
+        if name == '_formio':
+            # TODO implement caching on the model object
+            # self._cache or self.env.cache API only works for model fields, not Python attr.
+
+            # if '_formio' not in self.__dict__:
+            no_cache = True
+            if no_cache:
+                context = self._context
+                if 'lang' in context:
+                    lang = context['lang']
+                elif 'lang' not in context and 'uid' in context:
+                    lang = self.env['res.users'].browse(context['uid']).lang
+                elif 'lang' not in context and 'uid' not in context:
+                    lang = self.write_uid.lang
+                else:
+                    raise UserError("The form can't be loaded. No (user) language was set.")
+
+                res_lang = self.env['res.lang'].search([('code', '=', lang)], limit=1)
+                builder_obj = Builder(
+                    self.builder_id.schema,
+                    language=res_lang.iso_code,
+                    i18n=self.builder_id.i18n_translations())
+
+                if self.submission_data is False:
+                    # HACK masquerade empty Form object
+                    # TODO implement caching on the model object
+                    # self._formio = Form('{}', builder_obj)
+                    form = Form(
+                        "{}",
+                        builder_obj,
+                        date_format=res_lang.date_format,
+                        time_format=res_lang.time_format,
+                    )
+                else:
+                    # TODO implement caching on the model object
+                    # self._formio = Form(self.submission_data, builder_obj)
+                    form = Form(
+                        self.submission_data,
+                        builder_obj,
+                        date_format=res_lang.date_format,
+                        time_format=res_lang.time_format,
+                    )
+                return form
+        else:
+            return self.__getattribute__(name)
