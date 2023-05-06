@@ -1,0 +1,47 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    // MERQ Consultancy HQ Automated and Dockerized debug and launch script
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MERQ_HQ_Odoo - Start",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "program": "${workspaceRoot}/bin/odoo-bin",
+            "args": [
+                "-c",
+                "${workspaceRoot}/conf/odoo.conf",
+                // Use this to exit the external terminal
+                //"&&",
+                //"exit",
+            ],
+            "cwd": "${workspaceRoot}",
+            //"console": "externalTerminal"
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "MERQ_HQ_Odoo - Upgrade",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "program": "${workspaceRoot}/bin/odoo-bin",
+            "args": [
+                "-c",
+                "${workspaceRoot}/conf/odoo.conf",
+                "-u",
+                "my_module_01",
+                "-d",
+                "oc12_local_02",
+                // Use this to exit the external terminal
+                "&&",
+                "exit"
+            ],
+            "cwd": "${workspaceRoot}",
+            //"console": "externalTerminal"
+            "console": "integratedTerminal"
+        },
+    ]
+}
