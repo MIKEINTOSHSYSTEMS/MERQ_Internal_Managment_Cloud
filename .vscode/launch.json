@@ -14,7 +14,7 @@
             "args": [
                 "-c",
                 "${workspaceRoot}/conf/odoo.conf",
-                // Use this to exit the external terminal
+                // Use this to exit the external terminal and terminate it
                 //"&&",
                 //"exit",
             ],
