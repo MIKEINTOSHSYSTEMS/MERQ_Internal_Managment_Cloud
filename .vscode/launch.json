@@ -34,6 +34,7 @@
                 "${workspaceRoot}/conf/odoo.conf",
                 "-u",
                 //"custom_module_name",
+                //"event_management",
                 "all",
                 "-d",
                 "bitnami_odoo",
@@ -47,3 +48,5 @@
         },
     ]
 }
+// ./odoo-bin -c /opt/bitnami/odoo/conf/odoo.conf
+// ./opt/bitnami/odoo/bin/odoo-bin -c /opt/bitnami/odoo/conf/odoo.conf
