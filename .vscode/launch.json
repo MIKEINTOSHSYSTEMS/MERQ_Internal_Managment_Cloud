@@ -38,8 +38,8 @@
                 "-d",
                 "bitnami_odoo",
                 // Use this to exit the external terminal
-                "&&",
-                "exit"
+                //"&&",
+                //"exit"
             ],
             "cwd": "${workspaceRoot}",
             //"console": "externalTerminal"
