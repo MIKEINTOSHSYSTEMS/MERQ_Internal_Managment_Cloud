@@ -29,6 +29,7 @@
             "request": "launch",
             "stopOnEntry": false,
             "program": "${workspaceRoot}/bin/odoo-bin",
+            //"program": "/opt/bitnami/scripts/odoo/run.sh",
             "args": [
                 "-c",
                 "${workspaceRoot}/conf/odoo.conf",
