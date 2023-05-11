@@ -33,9 +33,10 @@
                 "-c",
                 "${workspaceRoot}/conf/odoo.conf",
                 "-u",
-                "my_module_01",
+                //"custom_module_name",
+                "all",
                 "-d",
-                "oc12_local_02",
+                "bitnami_odoo",
                 // Use this to exit the external terminal
                 "&&",
                 "exit"
